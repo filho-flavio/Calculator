@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #a8a6a6;
+}
+.container {
+    position: absolute;
+    width: 340px;
+    height: 530px;
+    outline: 1px solid #000;
+    top: 20%;
+    left: 40%;
+    border-radius: 2em;
+    background-color: #000;
+    box-shadow: 2px 3px 5px #000;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#display {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 auto 1em;
+    outline: 2px solid #ffffff;
+    background-color: #a8a6a6;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+button {
+    width: 65px;
+    height: 60px;
+    background-color: #a8a6a6;
+    border-radius: 8em;
+    border: 1px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button#btZero {
+    width: 7.3em;
+}
+
+button:active {
+    background-color: #e2d8d8;
+}
+
+button:hover {
+    box-shadow: 2px 3px 5px #e2d8d8;
+    transition: 0.1s;
+}
+.yellow {
+    background-color: #d8ae24;
+ }
+
+ button.grey {
+    background-color: #797676;
+ }
+
+ .grey:active{
+    background-color: #918a8a;
+ }
+
+ .yellow:active {
+    background-color:#dbc866 ;
+ }
+
+ #btBackspace {
+    color:#b22222;
+    font-weight: 900;
+ }
